@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwsStreamView_Tests' do
+  pod 'SwsStreamView', :path => '../'
+  
+  
+end

@@ -1,0 +1,6 @@
+framework module SwsStreamView {
+  umbrella header "SwsStreamView-umbrella.h"
+
+  export *
+  module * { export * }
+}

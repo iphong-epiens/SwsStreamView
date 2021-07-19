@@ -1,0 +1,16 @@
+PODS:
+  - SwsStreamView (0.1.0)
+
+DEPENDENCIES:
+  - SwsStreamView (from `../`)
+
+EXTERNAL SOURCES:
+  SwsStreamView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwsStreamView: ebfb5febe162a4891cb661325a2bda152f73f28d
+
+PODFILE CHECKSUM: 59e2c564c13fed668fd3dec27345539b8cd401b5
+
+COCOAPODS: 1.10.0

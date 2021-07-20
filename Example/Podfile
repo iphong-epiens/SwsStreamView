@@ -3,6 +3,4 @@ target 'SwsStreamView_Tests' do
   pod 'SwsStreamView', :path => '../'
 
   pod 'Alamofire'
-  pod 'RxSwift'
-  pod 'RxCocoa'
 end

@@ -33,11 +33,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SwsStreamView/Classes/**/*'
   
-   s.resource_bundles = {
-     'SwsStreamView' => ['SwsStreamView/Resources/*/**']
-   }
+  #s.resource_bundles = { 'SwsStreamView' => ['SwsStreamView/Resources/*/**'] }
    
-  s.public_header_files = 'Pod/Classes/**/*.h'
+   #s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'Alamofire'
   s.dependency 'RxSwift'

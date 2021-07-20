@@ -2,8 +2,16 @@
 import UIKit
 import Alamofire
 
-class SwsStreamViewController: UIViewController {
-    override func viewDidLoad() {
-        
+public class SwsStreamViewController: UIViewController {
+    
+    public override func viewDidLoad() {
+        AF.request("https://google.com/get").validate().responseData { response in
+            switch response.result {
+            case .success:
+                print("Success")
+            case .failure(let e):
+                print(e)
+            }
+        }
     }
 }

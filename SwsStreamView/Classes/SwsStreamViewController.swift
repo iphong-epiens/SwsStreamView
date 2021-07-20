@@ -12,8 +12,6 @@ internal class HiddenViewController: UIViewController {
 
     internal override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.view.ba
         // Do any additional setup after loading the view.
     }
     

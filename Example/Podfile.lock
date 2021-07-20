@@ -1,16 +1,24 @@
 PODS:
-  - SwsStreamView (0.1.0)
+  - Alamofire (5.4.3)
+  - SwsStreamView (0.1.0):
+    - Alamofire
 
 DEPENDENCIES:
+  - Alamofire
   - SwsStreamView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   SwsStreamView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwsStreamView: ebfb5febe162a4891cb661325a2bda152f73f28d
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  SwsStreamView: 900a42c18776ada8f120ba4b866c1c6d37eb2ef2
 
-PODFILE CHECKSUM: 59e2c564c13fed668fd3dec27345539b8cd401b5
+PODFILE CHECKSUM: 78bf77eedeb145fe2b97c9b775e0c1e50ee4a34b
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1

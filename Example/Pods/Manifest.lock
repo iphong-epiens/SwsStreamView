@@ -1,15 +1,28 @@
 PODS:
   - Alamofire (5.4.3)
-  - SwsStreamView (0.1.0):
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SwsStreamView (0.1.3):
     - Alamofire
+    - RxCocoa
+    - RxSwift
 
 DEPENDENCIES:
   - Alamofire
+  - RxCocoa
+  - RxSwift
   - SwsStreamView (from `../`)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
 
 EXTERNAL SOURCES:
   SwsStreamView:
@@ -17,8 +30,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
-  SwsStreamView: 900a42c18776ada8f120ba4b866c1c6d37eb2ef2
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SwsStreamView: fd47c975a4b47c4a912c55aa0e3ecea09f7c49e0
 
-PODFILE CHECKSUM: 78bf77eedeb145fe2b97c9b775e0c1e50ee4a34b
+PODFILE CHECKSUM: 24fd9328437e0e8bed20237c8ad6217f2fe24dd8
 
 COCOAPODS: 1.10.1

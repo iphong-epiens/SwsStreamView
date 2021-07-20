@@ -1,6 +1,6 @@
 {
   "name": "SwsStreamView",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "summary": "A short description of SwsStreamView.",
   "swift_versions": "5.0",
   "description": "TODO: Add long description of the pod here.",
@@ -14,16 +14,27 @@
   },
   "source": {
     "git": "https://github.com/iphong-epiens/SwsStreamView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "14.0"
   },
   "source_files": "SwsStreamView/Classes/**/*",
+  "resource_bundles": {
+    "SwsStreamView": [
+      "SwsStreamView/Resources/*/**"
+    ]
+  },
   "public_header_files": "Pod/Classes/**/*.h",
   "frameworks": "UIKit",
   "dependencies": {
     "Alamofire": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "RxCocoa": [
 
     ]
   },

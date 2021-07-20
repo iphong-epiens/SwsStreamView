@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwsStreamView'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A short description of SwsStreamView.'
   s.swift_version = '5.0'
 
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'SwsStreamView/Classes/**/*'
   
    s.resource_bundles = {
-     'SwsStreamView' => ['SwsStreamView/Assets/*.{storyboard,xib,strings,xcassets}']
+     'SwsStreamView' => ['SwsStreamView/Assets/*.{storyboard,xib,strings,xcassets,.png}']
    }
   # s.resource_bundles = {
   #   'SwsStreamView' => ['SwsStreamView/Assets/*.png']

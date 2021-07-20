@@ -7,14 +7,24 @@
 
 import UIKit
 
-class TestView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+public class TestView: UIView {
+    override init(frame: CGRect) {
+      super.init(frame: frame)
+      commonInit()
     }
-    */
 
+    required init?(coder aDecoder: NSCoder) {
+      super.init(coder: aDecoder)
+      commonInit()
+    }
+
+    func commonInit() {
+      let bundle = Bundle.init(for: TestView.self)
+      if let viewsToAdd = bundle.loadNibNamed("TestView", owner: self, options: nil), let contentView = viewsToAdd.first as? UIView {
+        addSubview(contentView)
+        contentView.frame = self.bounds
+        contentView.autoresizingMask = [.flexibleHeight,
+                                        .flexibleWidth]
+      }
+    }
 }

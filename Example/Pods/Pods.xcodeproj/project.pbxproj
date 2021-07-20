@@ -20,7 +20,6 @@
 		2E91BA3026A6D251007F7F50 /* SwsStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E91B9FF26A6CDC1007F7F50 /* SwsStreamViewController.swift */; };
 		2E91BA3126A6D2B7007F7F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E91B9FD26A6CDC1007F7F50 /* Main.storyboard */; };
 		2E91BA3226A6D2BE007F7F50 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E91BA0826A6CE1D007F7F50 /* Media.xcassets */; };
-		2E91BA3326A6D2C2007F7F50 /* meal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E91BA0E26A6CF17007F7F50 /* meal.png */; };
 		2E91BA3426A6D2C9007F7F50 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E91B9FA26A6CDC1007F7F50 /* TestView.xib */; };
 		2E91BA3526A6D2CD007F7F50 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E91B9FC26A6CDC1007F7F50 /* TestView.swift */; };
 		381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72312136F76CCB5AC50BCDD37ED4A2 /* SessionDelegate.swift */; };
@@ -111,7 +110,6 @@
 		2E91B9FD26A6CDC1007F7F50 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2E91B9FF26A6CDC1007F7F50 /* SwsStreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwsStreamViewController.swift; sourceTree = "<group>"; };
 		2E91BA0826A6CE1D007F7F50 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		2E91BA0E26A6CF17007F7F50 /* meal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meal.png; sourceTree = "<group>"; };
 		333DAB6EC98A071AAD9A29C41818F346 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
 		349B2325F6647FEE3C9209201FF5D4C2 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		3B6B036E28515521D09BA13397D255CB /* Pods-SwsStreamView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwsStreamView_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -247,7 +245,6 @@
 		2E91BA0726A6CE1D007F7F50 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				2E91BA0E26A6CF17007F7F50 /* meal.png */,
 				2E91BA0826A6CE1D007F7F50 /* Media.xcassets */,
 			);
 			name = Assets;
@@ -570,7 +567,6 @@
 			files = (
 				9EFEC3848D2DAC89463C132554D27D08 /* SwsStreamView.bundle in Resources */,
 				2E91BA3226A6D2BE007F7F50 /* Media.xcassets in Resources */,
-				2E91BA3326A6D2C2007F7F50 /* meal.png in Resources */,
 				2E91BA3426A6D2C9007F7F50 /* TestView.xib in Resources */,
 				2E91BA3126A6D2B7007F7F50 /* Main.storyboard in Resources */,
 			);
